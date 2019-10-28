@@ -18,9 +18,6 @@ let routes=[
     {
         path:"/catalogue",
         component:Catalogue,
-        meta:{
-            title :"分类"
-         }
     },
     {
         path:"/clear",
@@ -33,9 +30,6 @@ let routes=[
     {
         path:"/mine",
         component:Mine,
-        meta:{
-            title :"我的当当"
-         }
     },
     {
         path:"*",

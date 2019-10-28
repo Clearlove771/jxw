@@ -10,6 +10,7 @@
 </template>
 <style lang="less" scoped>
     .search{
+        width: 100%;
         position: fixed;
         z-index: 9999;
         margin-top: 6px;
@@ -25,7 +26,7 @@
           background-size: 350% 290%; 
         }
         .input{
-            width: 260px;
+            width: 70%;
             margin-left: 10px;
             border: 1px solid #ddd; 
             line-height: 27px;

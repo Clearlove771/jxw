@@ -23,12 +23,10 @@ export default {
     ul{display: flex;
             flex-wrap: wrap;
         li{
-           width: 75px;
-           height: 78.81px;
+           width: 20%;
            a{
                img{
-                   width: 75px;
-                   height: 78.81px;
+                   width: 100%;
                }
            } 
         }
