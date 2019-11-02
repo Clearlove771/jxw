@@ -16,3 +16,24 @@ export function getbanner(){
 export function getlist(){
     return axios.get ("list")
 }
+export function getjiulist(){
+    return axios.get ("jiulist")
+}
+export function getGoOne(){
+    return axios.get ("goOne")
+}
+export function getDay(){
+    return axios.get ("day")
+}
+export function getGoTwo(){
+    return axios.get ("goTwo")
+}
+export function getGuan(){
+    return axios.get ("guan")
+}
+export function getzhuti(){
+    return axios.get ("zhuti")
+}
+export function getbaokuan(){
+    return axios.get ("baokuan")
+}

@@ -1,0 +1,135 @@
+<template>
+    <div class="pLongin">
+         <div class="ipt1">
+          <i></i>
+          <input type="text" placeholder="请输入手机号，新用户将自动注册" />
+        </div>
+        <div class="ipt2">
+           <img src="../images/yan.png" alt="">
+          <input type="text" placeholder="验证码" />
+          <span></span>
+        </div>
+        <div class="ipt3">
+          <input type="text"  @focus="ipt" @blur="over" placeholder="请输入校验码" />
+          <span>获取校验码</span>
+          <p v-if="isAll"><i></i>请输入校验码</p>
+        </div>
+        <div class="btn" @click="login">
+          <a href="javascript:void(0)">立即登录</a>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    data(){
+  return{
+      isAll:true
+  }
+    },
+    methods:{
+        ipt(){
+           this.isAll=false
+        },
+        over(){
+           var con=document.querySelector(".ipt3 input").value.trim()
+           if(con==""){
+            this.isAll=true
+           }
+            
+        },
+        login(){
+          window.localStorage.setItem("isLogin", "true");
+          this.$router.replace("/me");
+        }
+    }
+}
+</script>
+<style lang="less" scoped>
+   .pLongin{
+    input {
+    width: 100%;
+    line-height: 40px;
+    border: 1px solid #cccccc;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  .ipt1{
+      i{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/login.png) -138px -34px;
+    top: 10px;
+    left: 5px;
+      }
+  }
+  .ipt2{
+      input{
+          padding-left: 15px;
+      }
+      img{
+         width: 70px;
+        height: 40px;
+        position: absolute;
+        top: 83px;
+        right: 40px;
+      }
+       span {
+        position: absolute;
+        top: 91px;
+        right: 5px;
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background: url(../images/ref.png) no-repeat;
+      }
+  }
+  .ipt3{
+      input{
+          width: 50%;
+          padding-left: 15px;
+      }
+      span{
+          display: inline-block;
+          width: 30%;
+          line-height: 40px;
+          background: #de4b45;
+          float:right;
+          border-radius: 5px;
+         text-align: center;
+         font-size: 14px;
+         color: #fff;
+      }
+      p{
+          position: absolute;
+          top:210px;
+          left: 80px;
+          height: 15px;
+          color: red;
+          i{ 
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background: url(../images/login.png) -202px -34px;
+          }
+      }
+
+  }
+  .btn {
+      width: 100%;
+      line-height: 35px;
+      background: #de4b45;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 16px;
+      a {
+        color: #fff;
+      }
+    }
+   }
+</style>
