@@ -5,6 +5,7 @@ import Catalogue from "../components/catalogue/catalogue.vue"
 import Clear from "../components/clear/clear.vue"
 import Shopping from "../components/shopping/shopping.vue"
 import Mine from "../components/mine/mine.vue"
+import Details from "../components/clear/detail-modules/details.vue"
 Vue.use(VueRouter);
 let routes=[
     {
@@ -13,7 +14,10 @@ let routes=[
     },
     {
         path:"/home",
-        component:Home
+        component:Home,
+        meta:{
+            title:"首页"
+        }
     },
     {
         path:"/catalogue",
@@ -24,17 +28,30 @@ let routes=[
     },
     {
         path:"/clear",
-        component:Clear
+        component:Clear,
+        meta:{
+            title:'裸价清仓'
+        }
+    },
+    {
+        path:"/details",
+        component:Details,
+        meta:{
+            title:'裸价清仓'
+        }
     },
     {
         path:"/shopping",
         component:Shopping,
+        meta:{
+            title:'购物车'
+        }
     },
     {
         path:"/mine",
         component:Mine,
         meta:{
-            title :"我的当当"
+            title :"我的酒仙"
          }
     },
     {
@@ -47,3 +64,4 @@ let router =new VueRouter({
 })
 
 export default router;
+

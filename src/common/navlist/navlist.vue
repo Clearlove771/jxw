@@ -17,13 +17,13 @@
   z-index: 999;
   display: flex;
   width: 100%;
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #ddd;
   background: #eee;
 }
 .nav li i {
   display: block;
-  font-size: 20px;
-  margin-bottom: -5px;
+  font-size: 40px;
+  margin-bottom: -10px;
 }
 .nav ul li {
   display: flex;
@@ -32,10 +32,10 @@
   align-items: center;
   flex: 1;
   font-weight: 800;
-  font-size: 12px;
+  font-size: 24px;
   img{
-      width: 42px;
-      height: 42px;
+      width: 84px;
+      height: 84px;
   }
 }
 .router-link-active {
