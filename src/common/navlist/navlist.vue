@@ -3,9 +3,9 @@
     <ul>
         <router-link tag="li" to="/home"><i class="iconfont icon-shouyebuxuanzhong"></i>首页</router-link>
         <router-link tag="li" to="/catalogue"><i class="iconfont icon-leimupinleifenleileibie-copy"></i>分类 </router-link>
-        <router-link tag="li" to="clear"> <img src="@/components/images/clear.png" alt=""></router-link>
-        <router-link tag="li" to="shopping"> <i class="iconfont icon-qicheqianlian-"></i>购物车</router-link>
-        <router-link tag="li" to="mine"> <i class="iconfont icon-Icon_wode"></i>我的酒仙</router-link>
+        <router-link tag="li" to="/clear"> <img src="@/components/images/clear.png" alt=""></router-link>
+        <router-link tag="li" to="/shopping"> <i class="iconfont icon-qicheqianlian-"></i>购物车</router-link>
+        <router-link tag="li" to="/mine"> <i class="iconfont icon-Icon_wode"></i>我的酒仙</router-link>
     </ul>
 </div>
 </template>
@@ -37,8 +37,5 @@
       width: 84px;
       height: 84px;
   }
-}
-.router-link-active {
-    color: #e9232c
 }
 </style> 
