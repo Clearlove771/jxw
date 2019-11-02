@@ -26,15 +26,15 @@ export default {
 </script>
 <style lang="less" scoped>
 .backTop {
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background: #fff url(./images/jlt.png) -98px;
-  background-size: 150px 55px;
+  background: #fff url(./images/jlt.png) -196px;
+  background-size: 300px 110px;
   position: fixed;
   z-index: 99999999;
-  bottom: 60px;
-  right: 25px;
-  box-shadow: 10px inset;
+  bottom: 120px;
+  right: 50px;
+  box-shadow: 40px inset;
 }
 </style>

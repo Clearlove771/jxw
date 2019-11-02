@@ -48,85 +48,85 @@ export default {
    .pLongin{
     input {
     width: 100%;
-    line-height: 40px;
-    border: 1px solid #cccccc;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    font-size: 14px;
+    line-height: 80px;
+    border: 2px solid #cccccc;
+    margin-bottom: 80px;
+    border-radius:10px;
+    font-size: 28px;
     outline: none;
-    padding-left: 30px;
+    padding-left: 60px;
     box-sizing: border-box;
   }
   .ipt1{
       i{
     position: absolute;
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: url(../images/login.png) -138px -34px;
-    top: 10px;
-    left: 5px;
+    width: 40px;
+    height: 40px;
+    background: url(../images/login.png) -276px -68px;
+    top: 20px;
+    left: 10px;
       }
   }
   .ipt2{
       input{
-          padding-left: 15px;
+          padding-left: 30px;
       }
       img{
-         width: 70px;
-        height: 40px;
+         width: 140px;
+        height: 80px;
         position: absolute;
-        top: 83px;
-        right: 40px;
+        top: 166px;
+        right: 80px;
       }
        span {
         position: absolute;
-        top: 91px;
-        right: 5px;
+        top: 182px;
+        right: 10px;
         display: inline-block;
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
         background: url(../images/ref.png) no-repeat;
       }
   }
   .ipt3{
       input{
           width: 50%;
-          padding-left: 15px;
+          padding-left: 30px;
       }
       span{
           display: inline-block;
           width: 30%;
-          line-height: 40px;
+          line-height: 80px;
           background: #de4b45;
           float:right;
-          border-radius: 5px;
+          border-radius: 10px;
          text-align: center;
-         font-size: 14px;
+         font-size: 28px;
          color: #fff;
       }
       p{
           position: absolute;
-          top:210px;
-          left: 80px;
-          height: 15px;
+          top:420px;
+          left:160px;
+          height: 30px;
           color: red;
           i{ 
-            width: 15px;
-            height: 15px;
+            width: 30px;
+            height: 30px;
             display: inline-block;
-            background: url(../images/login.png) -202px -34px;
+            background: url(../images/login.png) -404px -68px;
           }
       }
 
   }
   .btn {
       width: 100%;
-      line-height: 35px;
+      line-height: 70px;
       background: #de4b45;
-      border-radius: 5px;
+      border-radius: 10px;
       text-align: center;
-      font-size: 16px;
+      font-size: 32px;
       a {
         color: #fff;
       }

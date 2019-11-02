@@ -17,23 +17,23 @@ export default {
     .mine{
         width: 100%;
         background: #de4943;
-        height: 41px;
+        height: 82px;
         display: flex;
         a{
             display: block;
-            width: 30px;
-            height: 40px;
+            width: 60px;
+            height: 80px;
             background: url(../../images/mine.jpg);
-            margin-left: 15px;
+            margin-left: 30px;
         }
         span{
             display: block;
             width: 50%;
-            height: 41px;
-            margin-left: 50px;
+            height: 82px;
+            margin-left: 100px;
             text-align: center;
-            font-size: 16px; 
-            line-height: 41px; 
+            font-size: 32px; 
+            line-height: 82px; 
             color: #fff;
         }
     }

@@ -32,8 +32,8 @@ import{getbanner} from "@/api/index.js"
   text-align: right;
 }
 .swiper-pagination-bullet{
-    width: 6px;
-    height: 6px;
+    width: 12px;
+    height: 12px;
 }
 .swiper-pagination-bullet-active{
    background: #fff;

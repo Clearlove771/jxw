@@ -29,23 +29,23 @@ export default {
     width: 0;
 }
 .jiulist{
-    margin-top: 10px;
-    border-top: 1px solid #bbb;
+    margin-top: 20px;
+    border-top: 2px solid #bbb;
     ul{
         overflow-x: auto;
         display: flex;
      li{
-        padding: 5px; 
+        padding: 10px; 
         img{
-            width: 96px;
-            height: 96px;
+            width: 192px;
+            height: 192px;
         }
       p{
-          height: 40px;
+          height: 80px;
           overflow: hidden;
       } 
       span{
-          font-size: 15px;
+          font-size: 30px;
           color: red;
           display: block;
       } 

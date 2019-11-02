@@ -13,21 +13,21 @@
         .content{
             width: 84%;
             position: absolute;
-            top: 380px;
+            top: 760px;
             left: 0;
             right: 0;
             margin: 0 auto;
             .one{
                 display: inline-block;
                 float: left;
-                font-size: 14px;
+                font-size: 28px;
                 text-decoration: underline;
                 color: #666;
             }
             .two{
                 display: inline-block;
                 float: right;
-                font-size: 14px;
+                font-size: 28px;
                 text-decoration: underline;
                 color: #666;
                 

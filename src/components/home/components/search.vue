@@ -20,40 +20,40 @@ export default {
   width: 100%;
   position: fixed;
   z-index: 9999;
-  padding: 6px 0;
+  padding: 12px 0;
   display: flex;
   .logo {
     opacity: 1;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin-left: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-left: 40px;
     display: inline-block;
-    width: 57px;
-    height: 27px;
+    width: 114px;
+    height: 54px;
     background: #fff url(./images/jlt.png) 0 0;
     background-size: 350% 290%;
   }
   .input {
     opacity: 1;
     width: 70%;
-    margin-left: 10px;
-    border: 1px solid #ddd;
-    line-height: 27px;
-    border-radius: 5px;
+    margin-left: 20px;
+    border: 2px solid #ddd;
+    line-height: 54px;
+    border-radius: 10px;
     background: #fff;
     img {
       display: block;
-      width: 15px;
-      height: 15px;
-      margin-top: 7px;
-      margin-left: 10px;
+      width: 30px;
+      height: 30px;
+      margin-top: 14px;
+      margin-left: 20px;
       float: left;
     }
     input {
-      margin-left: 5px;
-      height: 27px;
+      margin-left: 10px;
+      height: 54px;
       outline: none;
-      font-size: 12px;
+      font-size: 24px;
     }
   }
 }

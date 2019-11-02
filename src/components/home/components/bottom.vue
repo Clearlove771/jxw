@@ -9,14 +9,14 @@
 <style lang="less" scoped>
       .bot{
           width: 100%;
-          padding-top: 20px;
-          padding-bottom: 10px;
+          padding-top: 40px;
+          padding-bottom: 20px;
           text-align: center;
           background: #eee;
       }
       p{
           width: 100%;
-          font-size: 14px;
+          font-size: 28px;
           a{
               color: blueviolet;
           }

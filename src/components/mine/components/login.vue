@@ -60,17 +60,17 @@ export default {
 <style lang="less" scoped>
 .colorOne {
   color: red;
-  border-bottom: 2px solid red;
-  padding-bottom: 5px;
+  border-bottom: 4px solid red;
+  padding-bottom: 10px;
 }
 .login {
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   position: relative;
   .loginTwo {
     width: 84%;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 28px;
     color: gray;
     .user {
       display: inline-block;
@@ -84,28 +84,28 @@ export default {
 }
 .content {
   width: 84%;
-  height: 350px;
+  height: 700px;
   margin: 0 auto;
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 0;
   right: 0;
   input {
     width: 100%;
-    line-height: 40px;
-    border: 1px solid #cccccc;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    font-size: 14px;
+    line-height: 80px;
+    border: 2px solid #cccccc;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    font-size: 28px;
     outline: none;
-    padding-left: 30px;
+    padding-left: 60px;
     box-sizing: border-box;
   }
   i {
     position: absolute;
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     background: url(../images/login.png);
   }
   .userCon {
@@ -113,47 +113,47 @@ export default {
     height: 100%;
     .btn {
       width: 100%;
-      line-height: 35px;
+      line-height: 70px;
       background: #de4b45;
-      border-radius: 5px;
+      border-radius: 10px;
       text-align: center;
-      font-size: 16px;
+      font-size: 32px;
       a {
         color: #fff;
       }
     }
     .ipt1 {
       i {
-        top: 10px;
-        left: 5px;
-        background-position: 0 -34px;
+        top: 20px;
+        left: 10px;
+        background-position: 0 -68px;
       }
     }
     .ipt2 {
       i {
-        top: 92px;
-        left: 5px;
-        background-position: -72px -34px;
+        top: 184px;
+        left: 10px;
+        background-position: -144px -68px;
       }
     }
     .ipt3 {
         input{
-            padding-left: 15px;
+            padding-left: 30px;
         }
         img{
-            width: 70px;
-            height: 40px;
+            width: 140px;
+            height: 80px;
             position: absolute;
-            top: 165px;
-            right: 40px;
+            top: 330px;
+            right: 80px;
         }
       span {
         position: absolute;
-        top: 175px;
-        right: 5px;
+        top: 350px;
+        right: 10px;
         display: inline-block;
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
         background: url(../images/ref.png) no-repeat;
       }
     }

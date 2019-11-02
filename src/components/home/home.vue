@@ -124,7 +124,7 @@ export default {
 </script>
 <style lang="less" scoped>
 .home {
-  padding-bottom: 44px;
+  padding-bottom: 88px;
 }
 .bottom {
   display: flex;
@@ -135,7 +135,7 @@ export default {
   }
 }
 .jing {
-  margin-top: 10px;
+  margin-top: 20px;
   display: flex;
 }
 </style>

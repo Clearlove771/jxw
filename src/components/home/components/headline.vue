@@ -67,62 +67,62 @@ export default {
 <style lang="less" scoped>
 .headline {
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
   img {
     display: inline-block;
     width: 20%;
-    height: 16px;
-    margin-left: 10px;
+    height: 32px;
+    margin-left: 20px;
   }
   .right {
-    margin-left: 15px;
+    margin-left: 30px;
     width: 60%;
-    height: 16px;
+    height: 32px;
     overflow: hidden;
-    line-height: 16px;
+    line-height: 32px;
   }
 }
 .bottom {
-  margin-top: 10px;
+  margin-top: 20px;
 
   p {
     display: inline-block;
-    font-size: 14px;
+    font-size: 28px;
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 10px;
   }
   h6 {
-    margin-left: 5px;
+    margin-left: 10px;
     display: inline-block;
   }
   span {
     display: inline-block;
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     background: gray;
-    margin-left: 3px;
-    border-radius: 2px;
-    line-height: 16px;
+    margin-left: 6px;
+    border-radius: 4px;
+    line-height: 32px;
     text-align: center;
     color: #fff;
   }
   i {
     display: inline-block;
-    margin-left: 3px;
+    margin-left: 6px;
   }
   h5{
       display: inline-block;
-      margin-left: 70px;
+      margin-left: 140px;
     i{
         display: inline-block;
-        width: 15px;
-        height: 15px;
+        width: 30px;
+        height: 30px;
         background: gray;
         border-radius: 100%;
-        line-height: 15px;
+        line-height: 30px;
         text-align: center;
         color: #fff;
-        font-size: 14px;
+        font-size: 28px;
     }
   }
 }

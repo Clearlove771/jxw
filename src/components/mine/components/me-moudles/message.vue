@@ -35,16 +35,16 @@
 .message {
   position: relative;
   width: 100%;
-  height: 152px;
+  height: 304px;
   background: url("../../images/bg.jpg");
   background-size: 100%;
   .mask {
-    width: 83px;
-    height: 85px;
+    width: 166px;
+    height: 170px;
     background: url("../../images/me.png");
     background-size: 100%;
     position: absolute;
-    top: 18px;
+    top: 36px;
     left: 5%;
     z-index: 2;
     img {
@@ -54,7 +54,7 @@
   }
   .center{
     position: absolute;
-    top:38px;
+    top:76px;
     left:33%;
     .id{
       display: inline-block;
@@ -64,27 +64,27 @@
       display: inline-block;
       background: #25282f;
       color: #f1d08a;
-      line-height: 16px;
-      margin-left: 5px;
-      padding: 0 5px;
-      border-radius: 2px;
+      line-height: 32px;
+      margin-left: 10px;
+      padding: 0 10px;
+      border-radius: 4px;
       i{
-        margin-left: 5px;
+        margin-left: 10px;
         display: inline-block;
-        width: 11px;
-        height: 11px;
+        width: 22px;
+        height: 22px;
         background: url("../../images/clubFinger.png");
         background-size: 100%;
       }
     }
     p{
-        font-size: 14px;
+        font-size: 28px;
         color: #000;
       }
   }
   .bottom {
     width: 100%;
-    height: 49px;
+    height: 98px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -93,11 +93,11 @@
     i {
       display: inline-block;
       width: 18%;
-      height: 45px;
-      line-height: 30px;
+      height: 90px;
+      line-height: 60px;
       background: url("../../images/grade.png") no-repeat;
       background-size: 100%;
-      margin-left: 26px;
+      margin-left: 52px;
       text-align: center;
       float: left;
     }
@@ -107,24 +107,24 @@
       display: flex;
       height: 100%;
       float: right;
-      padding: 8px 0;
+      padding: 16px 0;
       box-sizing: border-box;
       a {
         flex: 1;
         text-align: center;
-        border-right: 2px solid rgb(#fff,0.6);
-        border-radius: 1px 30px;
+        border-right: 4px solid rgb(#fff,0.6);
+        border-radius: 2px 60px;
         b{
           display: block;
           color: #fff;
-          font-size: 14px;
+          font-size: 28px;
           height: 50%;
         }
         span {
           display: block;
           color: #000;
           height: 50%;
-          font-size: 14px;
+          font-size: 28px;
         }
       }
     }

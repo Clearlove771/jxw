@@ -73,27 +73,27 @@ export default {
             flex-wrap: wrap;
             li{
               width: 33%;
-              padding: 20px;
+              padding: 40px;
               padding-bottom: 0px;
               box-sizing: border-box;
               text-align: center;
               span{
                 display: inline-block;
-                padding-top: 5px;
-                font-size: 14px;
+                padding-top: 10px;
+                font-size: 28px;
             }
             }
             
         } 
         .esc{
            width: 85%;
-           line-height:30px;
-           margin: 50px auto;
+           line-height:60px;
+           margin: 100px auto;
            background: #DE4B45;
-           border-radius: 5px;
+           border-radius: 10px;
            color: #fff;
            text-align: center;
-           font-size: 16px;
+           font-size: 32px;
         }
 
      }

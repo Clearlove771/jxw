@@ -29,9 +29,9 @@ export default {
        ul{ overflow-x: auto;
            display: flex;
          li{
-             width: 125px;
+             width: 250px;
              img{
-                 width: 125px;
+                 width: 250px;
              }
          }
        }

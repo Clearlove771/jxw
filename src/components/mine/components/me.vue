@@ -19,6 +19,6 @@ export default {
 </script>
 <style lang="less" scoped>
     .me{
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
 </style>

@@ -33,16 +33,16 @@ export default {
        .box{
            h2{
                width: 100%;
-               height: 5px;
+               height: 10px;
                background: #eee;
            }
            a{
                width: 100%;
                display: block;
-               line-height: 30px;
+               line-height: 60px;
                color: red;
-               font-weight: 800;
-               font-size: 16px;
+               font-weight: 1600;
+               font-size: 32px;
                text-align: center;
            }
        }
@@ -53,25 +53,25 @@ export default {
            li{ 
                width: 50%;
                background: #fff;
-               border: 1px solid #eee;
+               border: 2px solid #eee;
                box-sizing: border-box;
-               i{  margin: 5px ;
+               i{  margin: 10px ;
                    display: inline-block;
-                   width: 60px;
-                   line-height: 15px;
+                   width: 120px;
+                   line-height: 30px;
                    background:#ffa855; 
                    text-align: center;
-                   border-radius: 2px;
+                   border-radius: 4px;
                    color: #fff;
                }
-               p{  padding:5px;
-                   height: 35px;
+               p{  padding:10px;
+                   height: 70px;
                    overflow: hidden;
                }
                span{
-                   padding: 5px;
+                   padding: 10px;
                    color: red;
-                   font-size: 15px;
+                   font-size: 30px;
                }
            }
        }

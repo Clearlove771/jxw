@@ -62,10 +62,10 @@ export default {
       ul{ overflow-x: auto;
           display: flex;
           li{
-           width: 44px;
-           margin-right: 40px;
+           width: 88px;
+           margin-right: 80px;
            img{
-               width: 44px;
+               width: 88px;
            }
           }
       }
